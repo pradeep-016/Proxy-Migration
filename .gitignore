@@ -1,0 +1,42 @@
+# Root-level raw notebooks — scoring pipelines & infrastructure, not for publishing
+/*.ipynb
+
+# Outputs and data — not committed
+outputs/
+data/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.env
+.venv
+venv/
+env/
+
+# Kaggle working dirs
+/kaggle/
+
+# Large model weights
+*.bin
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# CSV outputs (large)
+*_cache*.csv
+armorm_cache*.csv
+
+# OS
+.DS_Store
+Thumbs.db
